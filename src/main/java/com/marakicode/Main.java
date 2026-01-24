@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.memento.TestMemento;
+import com.marakicode.designpatterns.behavioral.state.abuse.TestStopwatch;
 
 public class Main {
     public static void main(String[] args) {
-        TestMemento.test();
+        TestStopwatch.test();
     }
 }
