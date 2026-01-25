@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.Iterator.TestIterator;
+import com.marakicode.designpatterns.behavioral.strategy.TestStrategy;
 
 public class Main {
     public static void main(String[] args) {
-        TestIterator.test();
+        TestStrategy.test();
     }
 }
