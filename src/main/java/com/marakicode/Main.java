@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.templatemethod.TestTemplateMethod;
+import com.marakicode.designpatterns.behavioral.command.exercise.TestCommand;
 
 public class Main {
     public static void main(String[] args) {
-        TestTemplateMethod.test();
+        TestCommand.test();
     }
 }
