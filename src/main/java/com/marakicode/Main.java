@@ -1,10 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.strategy.TestStrategy;
-import com.marakicode.designpatterns.behavioral.strategy.exercise.TestChatClient;
+import com.marakicode.designpatterns.behavioral.templatemethod.TestTemplateMethod;
 
 public class Main {
     public static void main(String[] args) {
-        TestChatClient.test();
+        TestTemplateMethod.test();
     }
 }
