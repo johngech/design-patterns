@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.state.abuse.TestStopwatch;
+import com.marakicode.designpatterns.behavioral.Iterator.TestIterator;
 
 public class Main {
     public static void main(String[] args) {
-        TestStopwatch.test();
+        TestIterator.test();
     }
 }
