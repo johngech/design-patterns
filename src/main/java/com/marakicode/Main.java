@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.chainofresponsiblity.exercise1.TestDataReader;
+import com.marakicode.designpatterns.behavioral.visitor.exercise1.TestWav;
 
 public class Main {
     public static void main(String[] args) {
-        TestDataReader.test();
+        TestWav.test();
     }
 }
