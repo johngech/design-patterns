@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.observer.TestObserver;
+import com.marakicode.designpatterns.behavioral.mediator.exercise1.TestSignupDialogBox;
 
 public class Main {
     public static void main(String[] args) {
-        TestObserver.test();
+        TestSignupDialogBox.test();
     }
 }

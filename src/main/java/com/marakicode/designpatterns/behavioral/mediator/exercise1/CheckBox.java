@@ -1,0 +1,14 @@
+package com.marakicode.designpatterns.behavioral.mediator.exercise1;
+
+public class CheckBox extends UIControl {
+    private boolean checked;
+
+    public boolean isChecked() {
+        return checked;
+    }
+
+    public void setChecked(boolean checked) {
+        this.checked = checked;
+        notifyEventHandlers();
+    }
+}
