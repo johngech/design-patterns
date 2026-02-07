@@ -1,9 +1,11 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.behavioral.visitor.exercise1.TestWav;
+import com.marakicode.designpatterns.structural.composite.TestComposite;
+import com.marakicode.designpatterns.structural.composite.exercise1.TestTeam;
+import com.marakicode.designpatterns.structural.composite.exercise2.TestExample;
 
 public class Main {
     public static void main(String[] args) {
-        TestWav.test();
+        TestExample.test();
     }
 }
