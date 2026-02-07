@@ -1,11 +1,10 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.structural.composite.TestComposite;
-import com.marakicode.designpatterns.structural.composite.exercise1.TestTeam;
-import com.marakicode.designpatterns.structural.composite.exercise2.TestExample;
+import com.marakicode.designpatterns.structural.adapter.TestAdapter;
+import com.marakicode.designpatterns.structural.adapter.exercise1.TestMailClient;
 
 public class Main {
     public static void main(String[] args) {
-        TestExample.test();
+        TestMailClient.test();
     }
 }
