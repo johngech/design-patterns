@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.structural.flyweight.TestFlyweight;
+import com.marakicode.designpatterns.structural.bridge.TestBridge;
 
 public class Main {
     public static void main(String[] args) {
-        TestFlyweight.test();
+        TestBridge.test();
     }
 }
