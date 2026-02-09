@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.architectural.interceptingfilter.TestInterceptingFilter;
+import com.marakicode.designpatterns.creational.prototype.TestPrototype;
 
 public class Main {
     public static void main(String[] args) {
-        TestInterceptingFilter.test();
+        TestPrototype.test();
     }
 }
