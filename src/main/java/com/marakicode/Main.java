@@ -1,9 +1,10 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.creational.factorymethod.exercise1.TestScheduler;
+import com.marakicode.designpatterns.creational.abstractfactory.TestAbstractFactory;
+import com.marakicode.designpatterns.creational.abstractfactory.exercise1.TestWeightLossApp;
 
 public class Main {
     public static void main(String[] args) {
-        TestScheduler.test();
+        TestWeightLossApp.test();
     }
 }
