@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.creational.prototype.TestPrototype;
+import com.marakicode.designpatterns.creational.singleton.TestSingleton;
 
 public class Main {
     public static void main(String[] args) {
-        TestPrototype.test();
+        TestSingleton.test();
     }
 }
