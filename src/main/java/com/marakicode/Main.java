@@ -1,9 +1,9 @@
 package com.marakicode;
 
-import com.marakicode.designpatterns.structural.gateway.TestGateway;
+import com.marakicode.designpatterns.enterprisepatterns.notification.TestNotification;
 
 public class Main {
     public static void main(String[] args) {
-        TestGateway.test();
+        TestNotification.test();
     }
 }
